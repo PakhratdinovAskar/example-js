@@ -1,0 +1,34 @@
+body{
+    background-color:darkgreen;
+}
+
+#container{
+    display: flex;
+    height: 97vh;
+}
+
+.slide{
+    flex: 1;
+    margin: 5px; 
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide h3{
+    margin-left: 5px;
+    opacity: 0;
+}
+
+.clickDiv{
+    flex: 10;
+}
+
+.clickDiv h3{
+    opacity: 1;
+}
+
+
+
